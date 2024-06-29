@@ -1,2 +1,2 @@
 # foobar.ai
- Introducing FooBar Artificial Intelligence.
+Introducing FooBar Artificial Intelligence.
