@@ -1,0 +1,54 @@
+body {
+    font-family: var(--font);
+    background: var(--bg);
+    color: var(--text);
+}
+
+a {
+    text-decoration: none;
+    color: var(--primary);
+}
+
+a:hover, a:focus, a:active {
+    text-decoration: underline;
+}
+
+a:active {
+    color: var(--secondary);
+}
+
+.button {
+    display: block;
+    padding: .5rem;
+    background: var(--bg-2);
+    border: 1px solid var(--primary);
+    border-radius: 4px;
+    font-size: 1.4rem;
+}
+
+.button:hover,
+.button:focus,
+.button:active {
+    text-decoration: none;
+    color: var(--secondary);
+    border-color: var(--secondary);
+}
+
+.button:active {
+    text-decoration: underline;
+}
+
+.color {
+    color: var(--secondary);
+}
+
+.disabled {
+    color: var(--text-greyed);
+    pointer-events: none;
+    cursor: not-allowed;
+}
+
+.horiz-scroll {
+    overflow-x: auto;
+    white-space: nowrap;
+}
