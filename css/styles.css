@@ -24,6 +24,7 @@ a:active {
     border: 1px solid var(--primary);
     border-radius: 4px;
     font-size: 1.4rem;
+    cursor: pointer;
 }
 
 .button:hover,
@@ -42,13 +43,13 @@ a:active {
     color: var(--secondary);
 }
 
-.disabled {
-    color: var(--text-greyed);
-    pointer-events: none;
-    cursor: not-allowed;
+.horiz-scroll {
+    overflow-x: scroll;
+    white-space: nowrap;
 }
 
-.horiz-scroll {
-    overflow-x: auto;
-    white-space: nowrap;
+.disabled {
+    color: var(--text-greyed);
+    user-select: none;
+    cursor: not-allowed;
 }
