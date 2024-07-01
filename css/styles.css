@@ -66,6 +66,7 @@ a:active {
 }
 
 .horiz-scroll {
+    padding: .5rem 0;
     overflow-x: scroll;
     white-space: nowrap;
 }
