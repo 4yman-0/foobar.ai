@@ -1,0 +1,17 @@
+.header {
+    padding: .5rem 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__btn {
+    width: 10%;
+    min-width: 10rem;
+}
+
+.header__title {
+    flex-grow: 1;
+    font-size: 1.5rem;
+    text-align: center;
+}

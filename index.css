@@ -1,21 +1,10 @@
-header {
-    position: sticky;
-    top: 0;
+.header {
     padding: 0 1.5rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    border-bottom: 1px solid var(--bg-3);
-    background: rgba(20, 20, 20, 0.9);
 }
 
 .header__links {
     display: flex;
     gap: .8rem;
-}
-
-section {
-    padding: 1rem;
 }
 
 .hero {
@@ -161,12 +150,6 @@ section {
     min-width: 10rem;
     margin: auto;
     text-align: center;
-}
-
-.footer {
-    padding: 5vh 5%;
-    background: #000;
-    color: #FFF;
 }
 
 @media only screen and (max-width: 515px) {
