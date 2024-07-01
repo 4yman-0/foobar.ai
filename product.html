@@ -19,25 +19,41 @@
         <a href="index.html" class="button header__btn">&leftarrow; Go back</a>
         <h1 class="header__title">foobar<span class="color">.ai</span>: Pro Max Platinum+</h1>
     </header>
-    <section class="buy">
-        <label for="fullname">Full name: </label>
-        <input type="text" id="fullname" class="disabled">
-        <label for="fullname">Card: </label>
-        <input type="text" id="fullname" class="disabled" placeholder="NO CARDS ARE SUPPOTED">
-        <button class="button disabled">Buy</button>
-    </section>
-    <aside class="product">
-        <h2 class="product__title">foobar<span class="color">.ai</span>: Pro Max Platinum+</h2>
-        <p class="product__cost">
-            <span>Cost</span>
-            <span>$0.00</span>
-        </p>
-        <hr class="product__hr" />
-        <p class="product__total">
-            <span>Total</span>
-            <span>$0.00</span>
-        </p>
-    </aside>
+    <main class="content-container">
+        <section class="buy">
+            <div class="buy__form">
+                <div class="buy__fullname">
+                    <label for="fullname">Full name: </label>
+                    <input type="text" id="fullname" class="disabled">
+                </div>
+                <div class="buy__card">
+                    <label for="fullname">Card: </label>
+                    <input
+                     type="text"
+                     id="fullname"
+                     class="disabled"
+                     placeholder="NO CARDS ARE SUPPORTED">
+                </div>
+            </div>
+            <button class="button disabled">Buy</button>
+        </section>
+        <aside class="product">
+            <h2 class="product__title">
+                foobar<span class="color">.ai</span>: Pro Max Platinum+
+            </h2>
+            <p class="product__cost">
+                <p class="product__money">
+                    <span>Cost</span>
+                    <span>$0.00</span>
+                </p>
+                <br>
+                <p class="product__money">
+                    <span>Total</span>
+                    <span>$0.00</span>
+                </p>
+            </p>
+        </aside>
+    </main>
     <footer class="footer">
         We do NOT sell any Artificial Intelligence (AI) service.
         Please do NOT fill this form with ANY personal information.
