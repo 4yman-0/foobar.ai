@@ -17,20 +17,18 @@
 }
 
 .content-container {
-    padding: 1rem;
-    min-height: 80vh;
     display: flex;
-    gap: 1rem;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
+    background: var(--bg-2);
+    border: 1px solid var(--bg-3);
+    border-radius: 4px;
 }
 
 .buy, .product {
     min-height: 50vh;
-    padding: 1rem;
-    background: var(--bg-2);
-    border-radius: 4px;
+    padding: 10% 5%;
 }
 
 .buy {
@@ -47,11 +45,16 @@
     justify-content: space-between;
 }
 
+.buy__btn:hover {
+    color: #B00;
+    border-color: #B00;
+}
+
 .product__cost {
-    padding: 2rem;
+    padding: 1rem;
 }
 
 .product__money {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
