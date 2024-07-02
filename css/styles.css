@@ -68,7 +68,8 @@ a:active {
 .horiz-scroll {
     padding-bottom: 1rem;
     overflow-x: scroll;
-    white-space: nowrap;
+    display: flex;
+    flex-wrap: nowrap;
 }
 
 input {
