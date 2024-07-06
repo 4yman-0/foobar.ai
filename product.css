@@ -18,7 +18,7 @@
 
 .content-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap-reverse;
     justify-content: space-around;
     align-items: center;
     background: var(--bg-2);
@@ -28,7 +28,7 @@
 
 .buy, .product {
     min-height: 50vh;
-    padding: 10% 5%;
+    padding: 5%;
 }
 
 .buy {
@@ -43,6 +43,24 @@
     margin: .5rem 0;
     display: flex;
     justify-content: space-between;
+}
+
+/*  nevermind */
+.buy__fullname  > label,
+.buy__card      > label {
+    padding-right: 2rem;
+}
+
+.buy__fullname  > input,
+.buy__card      > input {
+    flex-grow: 1;
+    max-width: 20rem;
+}
+
+.buy__btn {
+    width: 50%;
+    min-width: 10rem;
+    margin: auto;
 }
 
 .buy__btn:hover {
