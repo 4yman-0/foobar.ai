@@ -17,6 +17,7 @@
 }
 
 .content-container {
+    min-height: 77vh;
     display: flex;
     flex-wrap: wrap-reverse;
     justify-content: space-around;
