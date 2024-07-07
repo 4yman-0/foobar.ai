@@ -48,7 +48,7 @@ a:active {
 }
 
 .disabled {
-    color: var(--text-greyed);
+    color: var(--text-grayed);
     user-select: none;
     cursor: not-allowed;
 }
