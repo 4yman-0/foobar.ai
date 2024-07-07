@@ -31,8 +31,8 @@
 }
 
 .hero__btn {
-    width: 20%;
-    min-width: 8rem;
+    width: fit-content;
+    margin-left: auto;
     text-align: center;
 }
 
@@ -118,8 +118,7 @@
 }
 
 .solution__btn {
-    width: 10%;
-    min-width: 10rem;
+    width: fit-content;
     margin: auto;
     text-align: center;
 }
@@ -157,8 +156,7 @@
 }
 
 .integrations__btn {
-    width: 10%;
-    min-width: 15rem;
+    width: fit-content;
     margin: auto;
     font-size: 2rem;
     text-align: center;

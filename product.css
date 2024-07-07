@@ -6,8 +6,7 @@
 }
 
 .header__btn {
-    width: 10%;
-    min-width: 10rem;
+    width: max-content;
 }
 
 .header__title {
@@ -60,7 +59,6 @@
 
 .buy__btn {
     width: 50%;
-    min-width: 10rem;
     margin: auto;
 }
 
