@@ -10,9 +10,7 @@
 .hero {
     min-height: 100vh;
     padding-top: 30vh;
-    background-color: var(--color-1);
-    background-image: url('img/ai.png');
-    background-attachment: fixed;
+    background: var(--primary);
 }
 
 .hero__container {
