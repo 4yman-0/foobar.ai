@@ -10,7 +10,7 @@
 .hero {
     min-height: 100vh;
     padding-top: 30vh;
-    background: var(--primary);
+    background: #999;
 }
 
 .hero__container {
